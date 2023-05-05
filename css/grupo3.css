@@ -120,11 +120,12 @@ h4 {
 }
 .video1 {
     text-align: center;
-   
+   padding: 30px;
 }
 
 .video2 {
     text-align: center;
+    padding: 30px;
 }
 
 .container {
