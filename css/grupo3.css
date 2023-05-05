@@ -120,6 +120,14 @@ h4 {
      color: var(--black);
 
 }
+p {
+    text-align: left;
+    color: var(--black);
+    font-size: x-large;
+    font:bolder;
+}
+
+
 .video1 {
     text-align: center;
    padding: 30px;
