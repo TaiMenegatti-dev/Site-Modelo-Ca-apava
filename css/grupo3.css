@@ -197,8 +197,8 @@ h4 {
     text-align: center;
 }
 @media  (min-width: 500px; max-width: 3000px); {
-    width: 500px 3000px !important;
-    height: 1000px 3000px !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 
