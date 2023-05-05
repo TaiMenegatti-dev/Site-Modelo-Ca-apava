@@ -112,10 +112,12 @@ button {
 
 h3 {
     text-align: center;
+    color: var(--black);
 }
 
 h4 {
     text-align: center;
+    color: var(--black);
 
 }
 .video1 {
