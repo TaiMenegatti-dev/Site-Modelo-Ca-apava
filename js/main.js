@@ -7,3 +7,4 @@ function MapaMental(){
     alert("Redirecionando para mapa mental sobre Fluxo Migratório.");
     window.location.href = "https://drive.google.com/file/d/1XjUP38FCQTRzXoIYdifBC9M8JCEPtFf_/preview"
 }
+

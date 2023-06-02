@@ -25,30 +25,36 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <a class="navbar-logo" href="index.html">
-                <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
-            </a>
-            <div class="navbar-menu">
-                <ul class="navbar-items">
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#videos">Vídeos</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#mapa_mental">Mapa Mental</a>
-                    </li>
-                    <li class="navbar-items-menu">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-logo" href="index.html">
+                    <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="#video">Vídeos</a>
+                        <a class="nav-link" href="#mapamental">Mapa Mental</a>
                         <a class="nav-link" href="#interatividade">Interatividade</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#compartilhar">Compartilhar</a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
             </div>
+            <!-- Container wrapper -->
         </nav>
+        <!-- Navbar -->
     </header>
 
     <main>
@@ -61,10 +67,10 @@
             </div>
         </div>
 
-        <div class="videos">
+        <div id="video" class="videos">
             <div class="video1">
                 <p>Fuso horário:</p> </br>
-                <p>O fuso horário divide o mundo em 24 faixas, cada uma com uma diferença de uma hora em relação ao
+                <p class="conteudo">O fuso horário divide o mundo em 24 faixas, cada uma com uma diferença de uma hora em relação ao
                     meridiano de Greenwich. Essa determinação facilita a comunicação e as relações comerciais entre
                     diferentes regiões do mundo.</p> </br>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/YTKkb_F24Bw"
@@ -74,7 +80,7 @@
             </div> </br>
             <div class="video2">
                 <p>Fluxo populacional:</p> </br>
-                <p>O fluxo migratório é o movimento de pessoas entre regiões ou países. A migração pode gerar desafios,
+                <p class="conteudo">O fluxo migratório é o movimento de pessoas entre regiões ou países. A migração pode gerar desafios,
                     como a falta de integração social e concorrência no mercado de trabalho, além de impactos nos locais
                     de origem e de destino.</p></br>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VupoOhzHxW8"
@@ -84,7 +90,7 @@
             </div>
         </div> </br>
 
-        <div class="Mapa mental">
+        <div id="mapamental" class="Mapa mental">
             <div class="container">
                 <h3>Clique nos botões abaixo para acessar os mapas mentais:</h3> </br>
                 <div class="row">
@@ -105,7 +111,7 @@
             </div>
         </div> </br>
 
-        <div class="interatividade">
+        <div id="interatividade" class="interatividade">
             <div>
 
                 <h4>Fluxo Migratório:</h4> </br>
@@ -156,8 +162,8 @@
         </div>
         <div class="footer-link">
             <strong>Escola SESI-SP de Caçapava - Pq. Residencial Maria Elmira (CE 207)</strong>
-            <p>Av. Monsenhor Theodomiro Lobo, 100 - Pq. Residencial Maria Elmira</p>
-            <p>(12) 3653-1943</p>
+            <h6>Av. Monsenhor Theodomiro Lobo, 100 - Pq. Residencial Maria Elmira</h6> 
+            <h6>(12) 3653-1943</h6>
         </div>
     </footer>
 
